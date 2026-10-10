@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply text-green-500 underline;
+  }
+}
+
+@layer components {
+  .menu-button {
+    @apply bg-indigo-500 p-3 text-white;
+  }
+}
+
+@layer utilities{
+    text-green-500{
+        color:blue;
+        background-color:teal;
+        
+    }
+}
